@@ -28,11 +28,10 @@ d up::
 Send, {d up}
 dstatus := false
 return
-
-
 ; When a is released it should release the key
 a up::
 Send, {a up}
 astatus := false
 return
+
 
