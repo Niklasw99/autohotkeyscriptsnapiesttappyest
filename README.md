@@ -10,5 +10,5 @@ autohotkeyscriptsnapiesttappyest
 ```
 there is an issue with Debounce delay not existing. so far. 
 V3 Is out now
-added the option for  debounce delay
+added the option for debounce delay Default is 10ms you mostlikely want it higher
 ```
