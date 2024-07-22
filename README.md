@@ -9,5 +9,6 @@ autohotkeyscriptsnapiesttappyest
 # ⚠️ Disclaimer: If you get banned for using AutoHotkey, it's not my fault. Use responsibly.
 ```
 there is an issue with Debounce delay not existing. so far. 
-V3 Comming sooon
+V3 Is out now
+added the option for  debounce delay
 ```
