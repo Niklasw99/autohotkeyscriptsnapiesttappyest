@@ -5,3 +5,5 @@ on your own, This is clearly just a 1Key Rollover Script.
 for everyone.
 ```
 autohotkeyscriptsnapiesttappyest
+
+# ⚠️ Disclaimer: If you get banned for using AutoHotkey, it's not my fault. Use responsibly.
