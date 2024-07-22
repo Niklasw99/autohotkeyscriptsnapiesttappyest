@@ -1,5 +1,5 @@
 ; Debounce delay
-dbounce := 10  ; 50 milliseconds (equivalent to 50000 microseconds)
+dbounce := 10  ; 10 milliseconds (equivalent to 10000 microseconds)
 
 ; When the "a" key is pressed
 a::
