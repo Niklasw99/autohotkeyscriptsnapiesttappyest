@@ -7,3 +7,6 @@ for everyone.
 autohotkeyscriptsnapiesttappyest
 
 # ⚠️ Disclaimer: If you get banned for using AutoHotkey, it's not my fault. Use responsibly.
+```
+there is an issue with Debounce delay not existing. so far
+```
