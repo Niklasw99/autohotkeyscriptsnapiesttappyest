@@ -10,6 +10,13 @@ autohotkeyscriptsnapiesttappyest
 # ⚠️ Disclaimer: If you get banned for using AutoHotkey, it's not my fault. Use responsibly.
 ```
 there is an issue with Debounce delay not existing. so far. 
-V3 Is out now
-added the option for debounce delay Default is 10ms you mostlikely want it higher
+V4 Is out now
+
+
+V4 Added Variables for up press so when you release the key it does not press up unnessary.
+DO NOTE that you still need debounce delay since autohotkey is fast but seems to be funky.
+
+V3 added the option for debounce delay Default is 10ms you mostlikely want it higher
+
+V2 added variables to stop up spam on key press
 ```
