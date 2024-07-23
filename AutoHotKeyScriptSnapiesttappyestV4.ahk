@@ -11,8 +11,8 @@ if (dstatus) {
     if (!dupstatus){
     Send, {d up}
     dupstatus := true
-}
     HighResSleep(dbounce)
+}
 }
 return
 
@@ -26,8 +26,9 @@ if (astatus) {
     if (!aupstatus){
     Send, {a up}
     aupstatus := true
-}
     HighResSleep(dbounce)
+}
+
 }
 return
 
