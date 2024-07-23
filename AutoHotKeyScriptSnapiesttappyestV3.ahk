@@ -1,51 +1,40 @@
 ; Debounce delay
-dbounce := 10  ; 50 milliseconds (equivalent to 50000 microseconds)
+dbounce := 10  ; 10 milliseconds (equivalent to 10000 microseconds)
 
-; When the "d" key is pressed 
+; When the "a" key is pressed
 a::
 ; Press the "a" key
 Send, {a down}
 astatus := true
-aupstatus := false
 if (dstatus) {
-    if (!dupstatus){
     Send, {d up}
-    dupstatus := true
+    dstatus := false
     HighResSleep(dbounce)
-}
 }
 return
 
-; When the "d" key is pressed 
+; When the "d" key is pressed
 d::
 ; Press the "d" key
 Send, {d down}
 dstatus := true
-dupstatus := false
 if (astatus) {
-    if (!aupstatus){
     Send, {a up}
-    aupstatus := true
+    astatus := false
     HighResSleep(dbounce)
-}
-
 }
 return
 
 ; When "d" is released
 d up::
-if (!dupstatus){
-    Send, {d up}
-    dupstatus := true
-}
+Send, {d up}
+dstatus := false
 return
 
 ; When "a" is released
 a up::
-if (!aupstatus){
-    Send, {a up}
-    dupstatus := true
-}
+Send, {a up}
+astatus := false
 return
 
 ; High-resolution timer for a precise delay
