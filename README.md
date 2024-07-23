@@ -9,7 +9,13 @@ autohotkeyscriptsnapiesttappyest
 
 # ⚠️ Disclaimer: If you get banned for using AutoHotkey, it's not my fault. Use responsibly.
 ```
-V4 Is out now
+
+!V5 Helps with some latency but does get stuck at times when you spam Really Really Really fast. 
+i did some revisions, but ended up asking chatGPT on this one.
+i wanted the press down logic to be done last asked chatgpt did some revisions and boom.
+V2 is still the fastest.
+
+V5 Is out now
 
 !V4 is not as fast as V2 and does seem to lock up because of some logic issue at times. 
 It's prob the least detectable so thats it so far...
